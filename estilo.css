@@ -1,0 +1,83 @@
+body {
+	background: url('img/fundo.png');
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+	color: gray;
+	font-size: 1.5em;
+}
+
+a {
+	color: #4b566a;
+	text-decoration: none;
+	font-style: bold;
+	text-transform: uppercase;
+}
+
+span {
+	color: red;
+}
+
+textarea {
+	resize: none;
+	width: 300px;
+	height: 100px;
+}
+
+form {
+	margin-left: 30%;
+}
+
+#principal{
+	width: 900px;
+}
+
+#menu {
+
+	background-color: #c5c5b2;
+	padding: 30px 0px 30px 10px;
+	word-spacing: 6px;
+}
+
+#botao {
+	text-transform: uppercase;
+	font-family: "Lucida Console", Courier, monospace;
+	font-size: 18px;
+	font-style: bold;
+	color: white;
+	width: 150px;
+	height: 40px;
+	letter-spacing: 1px;
+	background-color: #FF912F;
+	border: 2px outset #DE812F;
+	margin-left: 13%;
+}
+
+.sobre_anna {
+	background-color: #e8e8d9;
+	padding: 10px;
+}
+
+.biografia {
+	background-color: #e8e8d9;
+	padding: 10px;
+}
+
+.campanha-publi {
+	background-color: #e8e8d9;
+	padding: 10px;
+}
+
+.cadastro {
+	background-color: #e8e8d9;
+	padding: 10px;
+}
+
+.centralizar {
+	text-align: center;
+}
+
+.campanha-publi img {
+	border: 10px double  gray;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<title>Home</title>
+		<meta charset="utf-8">
+
+		<link rel="stylesheet" type="text/css" href="estilo.css">
+
+	</head>
+	<body>
+
+		<div id="principal">
+			<img src="img/capa.png"> <br><br>
+
+			<div id="menu">
+				<a href="index.html">Home | </a> 
+				<a href="biografia.html">Biografia | </a> 
+				<a href="campanha-publi.html">Campanha publicitárias | </a>
+				<a href="contato.html">Contato | </a>
+				<a href="cadastro.html">Cadastre-se </a>
+			</div>
+
+
+			<div class="cadastro">
+				<h2>Cadastre-se no site para mais informações</h2><hr>
+
+				<form method="post">
+					<br><br>
+
+					E-mail para login <span>*</span><br>
+					<input type="text" name="login" placeholder="Digite seu e-mail aqui" required=""><br><br>
+
+					Senha<span>*</span><br>
+					<input type="passowrd" name="senha" placeholder="Senha" required=""><br><br>
+
+					CPF<span>*</span><br>
+					<input type="number" name="CPF" placeholder="Ex: 45632987622" required="" maxlength="14" minlength="14"><br><br>
+
+					Sexo<span>*</span><br>
+					<input type="radio" name="sexo" value="M" required="">Masculino  
+					<input type="radio" name="sexo" value="F" required="">Feminino<br><br>
+
+					Descrição<br>
+					<textarea type="text" name="msg" placeholder="Deixe uma mensagem!"></textarea><br><br>
+
+					<input type="submit" value="Cadastrar" id="botao">
+
+					<h6>Onde está marcado com <span>*</span> é necessário preencher.</h6>
+				</form>
+
+			</div>
+
+			<div id="rodape">
+				<h3 class="centralizar">Todos os direitos reservados &copy</h3>
+			</div>
+
+		</div>
+
+	</body>
+</html>
